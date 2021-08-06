@@ -1,0 +1,50 @@
+@baseUrl=http://localhost:3000/api
+@resouce=products
+
+# @name getall
+GET {{baseUrl}}/{{resouce}}
+
+
+####
+ # @name filter
+GET {{baseUrl}}/{{resouce}}?color=cyan&price_gte=200
+
+###
+# @name likesearch
+GET {{baseUrl}}/{{resouce}}?name_like=Car
+
+###
+# @name include parent
+GET {{baseUrl}}/{{resouce}}?_expand=category
+
+
+
+###
+# @name pagination
+GET {{baseUrl}}/{{resouce}}?_page=1&_limit=5
+
+####
+# @name sort
+GET {{baseUrl}}/{{resouce}}?_sort=price&_order=desc
+
+
+####
+# @name ADDnew
+POST {{baseUrl}}/{{resouce}}
+Content-Type: application/json
+
+{
+    "name":"Sang Nguyen"
+}
+####
+
+PATCH {{baseUrl}}/{{resouce}}/2
+Content-Type: application/json
+
+{
+    "name":"NguyenSang"
+}
+
+####
+
+DELETE {{baseUrl}}/{{resouce}}/2

@@ -1,0 +1,23 @@
+@baseUrl=http://localhost:3000/api/categories
+GET {{baseUrl}}?_embed=products
+
+####
+# @name ADDnew
+POST {{baseUrl}}
+Content-Type: application/json
+
+{
+    "name":"Sang Nguyen"
+}
+####
+
+PATCH {{baseUrl}}/2
+Content-Type: application/json
+
+{
+    "name":"NguyenSang"
+}
+
+####
+
+DELETE {{baseUrl}}/2

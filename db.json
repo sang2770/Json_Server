@@ -1,0 +1,253 @@
+{
+  "categories": [
+    {
+      "id": "fee57752-743d-4dc8-94c2-f4155b0f2e4a",
+      "name": "Electronics",
+      "createdAt": 1628217389803,
+      "updatedAt": 1628217389803
+    },
+    {
+      "id": "2f5c0187-a271-436e-956f-1ead0c64dec3",
+      "name": "Clothing",
+      "createdAt": 1628217389804,
+      "updatedAt": 1628217389804
+    },
+    {
+      "id": "eff1563a-982c-4215-8627-2ce56b223561",
+      "name": "Industrial",
+      "createdAt": 1628217389805,
+      "updatedAt": 1628217389805
+    },
+    {
+      "id": "6c315bb2-42e2-473f-bd27-7b37a4ca06fb",
+      "name": "Jewelery",
+      "createdAt": 1628217389805,
+      "updatedAt": 1628217389805
+    }
+  ],
+  "products": [
+    {
+      "categoryId": "fee57752-743d-4dc8-94c2-f4155b0f2e4a",
+      "id": "87eac276-db0b-4b44-952d-d5e15618ac7b",
+      "name": "Generic Metal",
+      "color": "tan",
+      "price": 596,
+      "desciptions": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "createdAt": 1628217389807,
+      "updatedAt": 1628217421432,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "fee57752-743d-4dc8-94c2-f4155b0f2e4a",
+      "id": "691b01a3-e92d-418d-a833-c992a01d4e1d",
+      "name": "Generic Frozen Table",
+      "color": "sky blue",
+      "price": 458,
+      "desciptions": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "createdAt": 1628217389808,
+      "updatedAt": 1628217389808,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "fee57752-743d-4dc8-94c2-f4155b0f2e4a",
+      "id": "b0cfc4b6-f9c8-49e9-9f3a-fdc17467d899",
+      "name": "Intelligent Rubber Computer",
+      "color": "sky blue",
+      "price": 721,
+      "desciptions": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "createdAt": 1628217389809,
+      "updatedAt": 1628217389809,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "fee57752-743d-4dc8-94c2-f4155b0f2e4a",
+      "id": "975a62ec-dfba-4c4c-9fcc-09793ef30cbd",
+      "name": "Ergonomic Wooden Bike",
+      "color": "orange",
+      "price": 443,
+      "desciptions": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "createdAt": 1628217389811,
+      "updatedAt": 1628217389811,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "fee57752-743d-4dc8-94c2-f4155b0f2e4a",
+      "id": "855659cd-9fc0-4c8d-9db7-ad578852e61d",
+      "name": "Rustic Granite Chicken",
+      "color": "orange",
+      "price": 840,
+      "desciptions": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "createdAt": 1628217389813,
+      "updatedAt": 1628217389813,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "2f5c0187-a271-436e-956f-1ead0c64dec3",
+      "id": "70082cd9-f44b-4e1a-ad22-f4c599b632c1",
+      "name": "Rustic Steel Shoes",
+      "color": "azure",
+      "price": 627,
+      "desciptions": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "createdAt": 1628217389815,
+      "updatedAt": 1628217389815,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "2f5c0187-a271-436e-956f-1ead0c64dec3",
+      "id": "40748bcd-7460-4d77-97f6-01a10fa853c1",
+      "name": "Incredible Granite Towels",
+      "color": "lavender",
+      "price": 119,
+      "desciptions": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "createdAt": 1628217389817,
+      "updatedAt": 1628217389817,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "2f5c0187-a271-436e-956f-1ead0c64dec3",
+      "id": "44e61479-da9c-4fe5-a1d6-68f33b5e89f4",
+      "name": "Fantastic Cotton Ball",
+      "color": "ivory",
+      "price": 876,
+      "desciptions": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "createdAt": 1628217389819,
+      "updatedAt": 1628217389819,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "2f5c0187-a271-436e-956f-1ead0c64dec3",
+      "id": "3d4ff873-042c-4fa9-aee6-1c7d4b0249e3",
+      "name": "Awesome Wooden Hat",
+      "color": "cyan",
+      "price": 981,
+      "desciptions": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "createdAt": 1628217389821,
+      "updatedAt": 1628217389821,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "2f5c0187-a271-436e-956f-1ead0c64dec3",
+      "id": "899c8a61-a679-430e-923f-3b89806930eb",
+      "name": "Small Rubber Pizza",
+      "color": "orange",
+      "price": 836,
+      "desciptions": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "createdAt": 1628217389825,
+      "updatedAt": 1628217389825,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "eff1563a-982c-4215-8627-2ce56b223561",
+      "id": "bf5feafc-0677-4492-a618-9435e05db276",
+      "name": "Gorgeous Rubber Chair",
+      "color": "ivory",
+      "price": 62,
+      "desciptions": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "createdAt": 1628217389830,
+      "updatedAt": 1628217389830,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "eff1563a-982c-4215-8627-2ce56b223561",
+      "id": "225bcfc2-675e-4f6c-b2e6-af783565abe8",
+      "name": "Awesome Rubber Fish",
+      "color": "fuchsia",
+      "price": 193,
+      "desciptions": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "createdAt": 1628217389832,
+      "updatedAt": 1628217389832,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "eff1563a-982c-4215-8627-2ce56b223561",
+      "id": "2da0dd00-f4f4-4923-ad95-c11bbaced37a",
+      "name": "Incredible Fresh Bacon",
+      "color": "olive",
+      "price": 346,
+      "desciptions": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "createdAt": 1628217389834,
+      "updatedAt": 1628217389834,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "eff1563a-982c-4215-8627-2ce56b223561",
+      "id": "16ec85a8-bec5-4f4c-a6a4-7ba02f8482dd",
+      "name": "Fantastic Cotton Tuna",
+      "color": "cyan",
+      "price": 684,
+      "desciptions": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "createdAt": 1628217389837,
+      "updatedAt": 1628217389837,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "eff1563a-982c-4215-8627-2ce56b223561",
+      "id": "097c8473-9c08-4c88-bf43-f6838362bcaf",
+      "name": "Gorgeous Granite Shirt",
+      "color": "fuchsia",
+      "price": 600,
+      "desciptions": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "createdAt": 1628217389840,
+      "updatedAt": 1628217389840,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "6c315bb2-42e2-473f-bd27-7b37a4ca06fb",
+      "id": "183f62c4-50d1-4b60-861a-25b8790992d1",
+      "name": "Handmade Frozen Ball",
+      "color": "orange",
+      "price": 921,
+      "desciptions": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "createdAt": 1628217389842,
+      "updatedAt": 1628217389842,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "6c315bb2-42e2-473f-bd27-7b37a4ca06fb",
+      "id": "aa967a43-a857-4248-bda8-d2da8644f560",
+      "name": "Fantastic Plastic Computer",
+      "color": "gold",
+      "price": 417,
+      "desciptions": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "createdAt": 1628217389844,
+      "updatedAt": 1628217389844,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "6c315bb2-42e2-473f-bd27-7b37a4ca06fb",
+      "id": "0d0aa4d4-8e20-4b00-b77b-c4d09b8b964c",
+      "name": "Intelligent Plastic Ball",
+      "color": "azure",
+      "price": 809,
+      "desciptions": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "createdAt": 1628217389846,
+      "updatedAt": 1628217389846,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "6c315bb2-42e2-473f-bd27-7b37a4ca06fb",
+      "id": "b6cc0714-023e-4428-b974-febc2f189e74",
+      "name": "Generic Soft Table",
+      "color": "maroon",
+      "price": 592,
+      "desciptions": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "createdAt": 1628217389850,
+      "updatedAt": 1628217389850,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "6c315bb2-42e2-473f-bd27-7b37a4ca06fb",
+      "id": "c40df6b4-8c2c-46f2-814b-97f2b5f18f4a",
+      "name": "Refined Fresh Bacon",
+      "color": "mint green",
+      "price": 973,
+      "desciptions": "The Football Is Good For Training And Recreational Purposes",
+      "createdAt": 1628217389851,
+      "updatedAt": 1628217389851,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    }
+  ],
+  "profile": {
+    "name": "Po"
+  }
+}
