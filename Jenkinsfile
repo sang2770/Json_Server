@@ -1,6 +1,9 @@
-#!/usr/bin/env groovy
+pipeline {
+  agent any
 
-node {
+  tools {nodejs "node"}
+    
+  stages { 
     stage('checkout') {
         checkout scm
     }
@@ -20,10 +23,5 @@ node {
     stage('packaging') {
         sh "npm start"
     }
-
-//     stage('deploy') {
-// //         sh "kill \$(lsof -t -i:8021) > /dev/null 2> /dev/null || : "
-// //         sh "cd ./dist/mb-amc/ && http-server -p 8021"
-//     }
-
+  }
 }
