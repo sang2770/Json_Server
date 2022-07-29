@@ -7,4 +7,4 @@ COPY package*.json ./
 
 COPY . .
 
-RUN npm start
+CMD npm start
