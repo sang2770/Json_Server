@@ -34,11 +34,11 @@ pipeline {
       }
     }
 
-    stage('packaging') {
-      steps{
-        sh "npm start"
-      }
-    }
+//     stage('packaging') {
+//       steps{
+//         sh "npm start"
+//       }
+//     }
     
     stage('build') {
             steps {
