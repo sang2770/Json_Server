@@ -27,7 +27,15 @@ pipeline {
         sh "npm -v"
       }
     }
-
+    stage('SonarQube Analysis') {
+	    steps{
+		    
+		    def scannerHome = tool 'SonarScanner';
+		    withSonarQubeEnv() {
+		      sh "${scannerHome}/bin/sonar-scanner"
+		    }
+	    }
+    }
     stage('npm install') {
       steps{
         sh "npm install"
@@ -39,11 +47,7 @@ pipeline {
 //         sh "npm start"
 //       }
 //     }
-    stage('SonarQube Analysis') {
-	    def scannerHome = tool 'SonarScanner';
-	    withSonarQubeEnv() {
-	      sh "${scannerHome}/bin/sonar-scanner"
-	    }
+
 	    
     stage('build') {
             steps {
