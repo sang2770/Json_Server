@@ -47,6 +47,28 @@ const randomProduct = (List, number) => {
   }
   return ProductList;
 };
+const rt = (List, number) => {
+  const ProductList = [];
+  if (number <= 0) return [];
+  for (const item of List) {
+    Array.from(new Array(number)).forEach(() => {
+      //   console.log(item);
+      const product = {
+        categoryId: item.id,
+        id: faker.random.uuid(),
+        name: faker.commerce.productName(),
+        color: faker.commerce.color(),
+        price: Number.parseFloat(faker.commerce.price()),
+        desciptions: faker.commerce.productDescription(),
+        createdAt: Date.now(),
+        updatedAt: Date.now(),
+        thumbnailUrl: faker.image.imageUrl(400, 400),
+      };
+      ProductList.push(product);
+    });
+  }
+  return ProductList;
+};
 //IIFE
 (() => {
   const categoryList = Random(4);
