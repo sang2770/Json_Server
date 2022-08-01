@@ -39,7 +39,12 @@ pipeline {
 //         sh "npm start"
 //       }
 //     }
-    
+    stage('SonarQube Analysis') {
+	    def scannerHome = tool 'SonarScanner';
+	    withSonarQubeEnv() {
+	      sh "${scannerHome}/bin/sonar-scanner"
+	    }
+	    
     stage('build') {
             steps {
                 sh "docker build -t ${DOCKER_IMAGE}:latest . "
