@@ -29,11 +29,9 @@ pipeline {
     }
     stage('SonarQube Analysis') {
 	    steps{
-		    
-// 		    def scannerHome = tool 'SonarScanner';
-		    withSonarQubeEnv(installationName: 'SonarQube 192') {
-// 		      sh "${scannerHome}/bin/sonar-scanner"
-			    sh './mvnw sonar:sonar'
+		   def scannerHome = tool 'SonarScanner';
+		   withSonarQubeEnv() {
+		      sh "${scannerHome}/bin/sonar-scanner"
 		    }
 	    }
     }
