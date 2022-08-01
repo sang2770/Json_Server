@@ -27,14 +27,14 @@ pipeline {
         sh "npm -v"
       }
     }
-    stage('SonarQube Analysis') {
-	    steps{
-		   def scannerHome = tool 'SonarScanner';
-		   withSonarQubeEnv() {
-		      sh "${scannerHome}/bin/sonar-scanner"
-		    }
-	    }
+    stage('sonar analysis') {
+      steps {
+	withSonarQubeEnv(installationName: 'SonarQube 192') {
+	  sh './mvnw sonar:sonar'
+	}
+      }
     }
+
     stage('npm install') {
       steps{
         sh "npm install"
