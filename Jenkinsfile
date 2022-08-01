@@ -32,7 +32,8 @@ pipeline {
 		    
 // 		    def scannerHome = tool 'SonarScanner';
 		    withSonarQubeEnv() {
-		      sh "${scannerHome}/bin/sonar-scanner"
+// 		      sh "${scannerHome}/bin/sonar-scanner"
+			    sh "mvn sonar:sonar"
 		    }
 	    }
     }
